@@ -1,0 +1,12 @@
+@import '../base/custom.scss';
+
+.contact {
+  	p {
+    	@extend .panel;
+  	}
+
+  	.google-map {
+    	height: 500px;
+    	width: 100%;
+  	}
+}
